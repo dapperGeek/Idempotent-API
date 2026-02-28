@@ -65,7 +65,7 @@ IdempotencyService.executeIdempotently()
 ## Project Structure
 
 ```
-src/main/java/com/example/idempotency/
+src/main/java/org/geek0/idempotencymodule/
 ├── controller/
 │   └── OrderController.java          # REST endpoints with inline comments
 ├── service/
@@ -85,7 +85,7 @@ src/main/java/com/example/idempotency/
 └── config/
     └── AppConfig.java                # ObjectMapper, scheduling
 
-src/test/java/com/example/idempotency/
+src/test/java/org/geek0/idempotencymodule/
 └── IdempotencyIntegrationTest.java   # Full end-to-end tests
 ```
 
